@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
     sf::RenderWindow window(sf::VideoMode(1024, 768), "Texture Test");
 
     sf::Texture texture;
-    if (!texture.loadFromFile("/Users/huangjiaming/Documents/developer/LearnSFML/blog5/src/leaf.png")) {
+    if (!texture.loadFromFile("leaf.png")) {
         return -1;
     }
     sf::Vector2u textureSize = texture.getSize();
