@@ -1,3 +1,0 @@
-/Users/huangjiaming/Documents/developer/LearnSFML/blog7/build/CMakeFiles/rebuild_cache.dir
-/Users/huangjiaming/Documents/developer/LearnSFML/blog7/build/CMakeFiles/edit_cache.dir
-/Users/huangjiaming/Documents/developer/LearnSFML/blog7/build/CMakeFiles/blog7.dir
