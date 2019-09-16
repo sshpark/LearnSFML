@@ -3,13 +3,17 @@
 
 int main(int argc, char const *argv[])
 {
-    sf::RenderWindow window(sf::VideoMode(640, 480), "Views");
+    sf::RenderWindow window(sf::VideoMode(640, 480), "RotateAndScale");
     AssetManager manager;
 
 
     auto wSize = window.getSize();
     sf::View view(sf::FloatRect(0, 0, wSize.x, wSize.y));
     view.setCenter(sf::Vector2f(0, 0));
+    // 缩放
+    // view.zoom(2);
+
+    // 旋转
     view.setRotation(45);
     window.setView(view);
 

@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 
 
     auto& idleAnimation = animator.CreateAnimation("Idle", 
-        "/Users/huangjiaming/Documents/developer/LearnSFML/blog6/src/crystal1.png",
+        "./crystal1.png",
         sf::seconds(1), true);
 
     idleAnimation.AddFrames(sf::Vector2i(0, 0), spriteSize, 8);

@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 
     sf::Vector2f spriteSize = sf::Vector2f(118, 114);
     sf::Sprite sprite(AssetManager::GetTexture(
-        "/Users/huangjiaming/Documents/developer/LearnSFML/blog7/src/myTexture.png"));
+        "./myTexture.png"));
     sprite.setOrigin(spriteSize * 0.5f);
 
     while(window.isOpen()) {

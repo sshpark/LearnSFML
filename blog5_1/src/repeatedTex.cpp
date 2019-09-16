@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 
     sf::Texture texture;
 
-    if (!(texture.loadFromFile("/Users/huangjiaming/Documents/developer/LearnSFML/blog5/src/rep.png"))) {
+    if (!(texture.loadFromFile("./rep.png"))) {
         return -1;
     }
     texture.setRepeated(true);
